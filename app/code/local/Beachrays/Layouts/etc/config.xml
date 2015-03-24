@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Beachrays_Layouts>
+      <version>0.1.0</version>
+    </Beachrays_Layouts>
+  </modules>
+  <global>
+    <page>
+      <layouts>
+        <page_home translate="label">
+          <label>home page</label>
+          <template>page/home.phtml</template>
+          <layout_handle>page_home</layout_handle>
+        </page_home>
+        <!-- add more layouts here -->
+      </layouts>
+    </page>
+  </global>
+</config>
